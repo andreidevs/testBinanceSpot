@@ -1,6 +1,6 @@
-export const DiffList = () => import('../../components/DiffList.vue' /* webpackChunkName: "components/diff-list" */).then(c => wrapFunctional(c.default || c))
-export const Glass = () => import('../../components/Glass.vue' /* webpackChunkName: "components/glass" */).then(c => wrapFunctional(c.default || c))
-export const Table = () => import('../../components/Table.vue' /* webpackChunkName: "components/table" */).then(c => wrapFunctional(c.default || c))
+export { default as DiffList } from '../../components/DiffList.vue'
+export { default as Glass } from '../../components/Glass.vue'
+export { default as Table } from '../../components/Table.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

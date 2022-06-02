@@ -24,8 +24,9 @@ export default {
     },
     symbol: "BTCUSDT",
     ws: null,
+    loading: false,
   }),
-  async asyncData() {
+  async mounted() {
     await this.snap();
     this.wsSubscribe();
     this.$bus.$on("symbol", (symbol) => {
