@@ -1,0 +1,17 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/diff-list.js": "components/diff-list.js",
+    "components/glass.js": "components/glass.js",
+    "components/table.js": "components/table.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/diff-list.js": "components/diff-list.js.map",
+    "components/glass.js": "components/glass.js.map",
+    "components/table.js": "components/table.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}
