@@ -3,7 +3,6 @@
     "name": "index",
     "path": "/",
     "component": "/Users/andreidev/Documents/GitHub/testBinanceSpot/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_46f29fcc"
+    "chunkName": "pages/index"
   }
 ]
