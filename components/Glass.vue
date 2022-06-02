@@ -3,7 +3,7 @@
     <a-tag class="w-full mx-2" color="#108ee9"> Symbol = {{ symbol }} </a-tag>
     <a-spin :spinning="loading">
       <div class="spin-content">
-        <div class="m-2">
+        <div class="flex items-center justify-between m-2">
           <Table :items="glass.bids">Bids</Table>
           <Table :items="glass.asks" class="ml-2">Asks</Table>
         </div>
@@ -76,18 +76,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-.wrapper {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
-}
-.symbol-type {
-  text-align: center;
-  width: 100%;
-  background-color: black;
-  color: white;
-}
-</style>

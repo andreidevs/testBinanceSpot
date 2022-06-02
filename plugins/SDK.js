@@ -6,7 +6,6 @@ export const SDK = {
     return glass.data;
   },
   subscribe: function (symbol) {
-    const { EventBus } = require('./eventBus');
     let ws = new WebSocket(`wss://stream.binance.com:9443/ws/${symbol.toLowerCase()}@depth`);
     return ws     // сокет
   }
